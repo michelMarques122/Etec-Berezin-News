@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&display=swap');
+
+  body{
+    font-family: 'Bebas Neue', sans-serif;
+  }
+.a1{
+    background-image: url("https://www.carteiradoestudante.com.br/blog/wp-content/uploads/2019/06/carteira-de-estudante-o-que-precisa.jpg");
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.592);
+    color: aqua;
+    font-size: 30px;
+}
+
+
+.letra1{
+    padding-left: 2vh;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100vw;
+    display: flex;
+    height: 6vh;
+    color: #DF1C2E;
+    font-size: 5vh;
+     position:absolute;
+    z-index: 4;
+    word-spacing: 49vh;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.letra2{
+    padding-left: 10vh;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100vw;
+    display: flex;
+    height: 6vh;
+    color: white;
+    font-size: 5vh;
+    position:absolute;
+    z-index: 3;
+    text-shadow: 2px 2px 4px #000000;  
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.letra3{
+  padding-top: 10vw;
+  padding-left: 10vh;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  color: white;
+  font-size: 30vh;
+  z-index: 5;
+  text-shadow: 5px 5px 5px #000000;  
+  position:absolute;
+}
+
+.letra4{
+  padding-top: 24vw;
+  padding-left: 10vh;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  color: #DF1C2E;
+  font-size: 5vh;
+  z-index: 5;
+  text-shadow: 2px 2px 4px #000000;  
+  position:absolute;
+}
+
+.letra5{
+  padding-top: 12vw;
+  padding-left: 10vh;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  color: white;
+  font-size: 5vh;
+  z-index: 5;
+  text-shadow: 2px 2px 4px #000000;  
+  position:absolute;
+}
+
+.letra6{
+  padding-left: 6vh;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: 5vh;
+  z-index: 5;
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+.letra7{
+  padding-left: 6vh;
+  font-family: 'Balsamiq Sans', cursive;
+  color: white;
+  font-size: 2vh;
+  z-index: 5;
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+.nav-tabs .nav-item .nav-link {
+    background-color: #0080FF;
+    color: #FFF;
+  }
+  
+  .nav-tabs .nav-item .nav-link.active {
+    color: #0080FF;
+  }
+  
+  .tab-content {
+    border: 1px solid #dee2e6;
+    border-top: transparent;
+    padding: 15px;
+  }
+  
+  .tab-content .tab-pane {
+    background-color: #FFF;
+    color: #0080FF;
+    min-height: 200px;
+    height: auto;
+  }
+ 
+  .nav-item {
+    background-color:#C73442; 
+    border-radius:0px;
+    font-family:'Bebas Neue', sans-serif; 
+    font-size:3vh; color:aliceblue; 
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+
+  .nav-item2 {
+    background-color:#C73442; 
+    border-radius:0px;
+    font-family:'Bebas Neue', sans-serif; 
+    font-size:3vh; color:aliceblue; 
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+  .nav-item:hover {
+    background-color:#aa2a37; 
+    transition: 2ms;
+  }
+
+  .card-img1 {
+    filter: brightness(50%);
+    border-radius: 6px;  height: 40vh;
+    width: 30vw;
+    object-fit:cover;
+  }
+
+  .card-img2 {
+    filter: brightness(50%);
+    border-radius: 6px;   height: 40vh;
+    width: 30vw;
+  object-fit:cover;
+  }
+  .card-img3 {
+    filter: brightness(50%);
+    border-radius: 6px;  height: 40vh;
+    width: 30vw;
+    object-fit:cover;
+  }
+      .card-img{
+        width: 90vw; height: 50vh;
+        object-fit:cover;
+        filter: brightness(50%);
+      }
+
+      .container {
+
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      .p1 {
+        color: white;
+        font-size: 25px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+      
+      .membros {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .membros img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+      
+      .subtitle {
+        color: white;
+      }
+      
+      .nomeP {
+        padding-left: 6vh;
+        font-family: 'Bebas Neue', sans-serif;
+        color: red;
+        margin: 0;
+      }
+      
+      .box-space {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        color: red;
+        padding: 0 10px;
+      }
+      
+      
+      .h4 {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        color: red;
+        padding: 0 10px;
+        font-size: 45px;
+      
+      }
+
+
+      .painel {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .painel button {
+        height: 30px;
+        background: transparent;
+        filter: invert(100%);
+        box-sizing: border-box;
+        padding: 0 2px;
+        margin-top: 50px;
+      }
+      
+      .carrossel {
+      
+        width: 750px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow: hidden;
+      }
+      
+      .carrosel-item {
+        width: 750px;
+        position: relative;
+        transition: all 2s;
+      }
+
+      
+      .inscrever-button {
+        background-color: #FF0000; /* Cor de fundo do botão (vermelho) */
+        color: #FFFFFF; /* Cor do texto (branco) */
+        font-size: 16px; /* Tamanho da fonte */
+        font-weight: bold; /* Negrito */
+        padding: 10px 20px; /* Espaçamento interno do botão */
+        border: none; /* Remove a borda */
+        border-radius: 20px; /* Bordas arredondadas */
+        cursor: pointer; /* Altera o cursor para uma mãozinha ao passar o mouse */
+        transition: background-color 0.3s; /* Efeito de transição suave para a cor de fundo */
+        text-decoration: none;
+      }
+  
+      /* Estilizar o botão ao passar o mouse sobre ele */
+      .inscrever-button:hover {
+        background-color: #FF3333; /* Cor de fundo mais clara ao passar o mouse */
+      }
+
+      .home-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;
+        height: 80px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+        z-index: 9999; /* Coloque o botão sobre outros elementos */
+      }
+  
+      .home-button img {
+        width: 40px;
+        height: 40px;
+        fill: white;
+      }
+  
